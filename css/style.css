@@ -1,0 +1,56 @@
+body{
+  background-image: url("../images/grid.jpg");
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+  color: #11468C;
+}
+
+a{
+  color: #5A86BF;
+  text-decoration: none
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+/* Playing with selectors */
+
+#catch-line {
+  color: brown;
+  font-weight: normal;
+}
+
+.circle {
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 50%;
+}
+
+#social-links a {
+  color: orange;
+}
+
+/* Playing with box model */
+
+#teaser {
+  padding: 30px 200px 30px 200px;
+  margin: 40px 0px 40px 0;
+  background-color: white;
+  border: 1px solid grey;
+  text-align: center;
+  box-shadow: 0 0 2px black;
+}
+
+#container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
